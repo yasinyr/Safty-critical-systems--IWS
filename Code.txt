@@ -1,5 +1,3 @@
-
-
 // 	Ports		Uses port A for Data and Command values (8 bits, Output)
 //				The LCD 'device Busy' flag also uses bit 7 of port A so sometimes this bit has to be set for Input
 
@@ -63,9 +61,7 @@ int main( void )
 	InitialiseTimer3();
 	InitialiseTimer4();
 
-		
 
-	
 	
 	while(1)
     {		
